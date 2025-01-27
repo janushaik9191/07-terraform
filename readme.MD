@@ -112,9 +112,11 @@ variable "ami" {
 ```
 terraform validate
 ```
+
 * to vaildate the syntax errors
 
 ```
 terraform fmt
 ```
+
 * to beautify the script by mainatining equal spacing
