@@ -70,7 +70,15 @@ terraform plan
 ```
 terraform apply
 ```
-
+```
+terraform validate
+```
+to vaildate the syntax errors
+```
+terraform fmt
+```
+to beautify the script by mainatining equal spacing
+ 
 ### Clarification
 
 While creating terraform resource, left side things are called as arguments, we have to use the same name as per terraform aws documentation. For example
@@ -109,16 +117,4 @@ resource "aws_instance" "terraform" {
 variable "ami" {
     default = "ami-09c813fb71547fc4f"
 }
-```
-
-* terraform validate
-
-```
-to vaildate the syntax errors
-```
-
-* terraform fmt
-
-```
-to beautify the script by mainatining equal spacing
 ```
