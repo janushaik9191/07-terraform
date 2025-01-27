@@ -110,13 +110,11 @@ variable "ami" {
     default = "ami-09c813fb71547fc4f"
 }
 ```
-```
 terraform validate
-
-to vaildate the syntax errors
 ```
+to vaildate the syntax errors
+
 ```
 terraform fmt
-
-to beautify the script by mainatining equal spacing
 ```
+to beautify the script by mainatining equal spacing
