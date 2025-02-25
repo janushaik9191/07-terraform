@@ -7,12 +7,11 @@ terraform {
   }
   backend "s3" {
     bucket         = "daws-s3-remote"
-    key            = "variables-demo"
-    dynamodb_table = "daws-locking"
+    key            = "variables-datatypes-demo"
     region         = "us-east-1"
+    dynamodb_table = "daws-dynamodb"
   }
 }
 provider "aws" {
-  # configuration details
   region = "us-east-1"
 }
